@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negócio Feito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<style>
+    .navbar-brand{
+        margin-left: 10px;
+    }
+    .p-2{
+        margin-top: 60px;
+        
+    }
+    .text-body-emphasis{
+        margin-top: 40px;
+        font-size: 2rem;
+    }
+    .text-body-subtitel{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+    .resumo-simples-metodo-segurança{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    .text-white{
+        text-decoration: none;
+    }
+    .btpadding{
+      margin-bottom: 20px;
+    }
+    .categorias{
+      margin-top: 80px;
+      font-size: 1.1rem;
+    }
+    .categorias-titulo{
+      margin-bottom: 60px;
+      font-size: 2.5rem;
+    }
+    .categorias .row{
+      padding: 10px;
+      
+    }
+    .categoria{
+      padding: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: rgb(46, 50, 58);
+      border-radius: 10px;
+      font-size: 1.5rem;
+      
+    }
+    .Subcategoria{
+      margin-top: 20px;
+      font-size: 1.2rem;
+      padding: 8px;
+      border-radius: 10px;
+      background-color:  rgb(61, 66, 77);
+    }
+   
+   
+</style>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+              </svg>
+          <a class="navbar-brand" href="#" > Negócio Feito</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Mensagens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Anúncios</a>
+              </li>
+            </ul>
+            
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Procurar artigo ..." aria-label="Pesquisar">
+              <button class="btn btn-outline-success" type="submit">Encontrar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <div class="categorias container text-center">
+      <h1 class="categorias-titulo text-white">Categorias</h1>
+      <h2 class="categoria  text-white">Veiculos</h2>
+      <div class="row">
+        <div class="col">
+          Automóveis de passageiros
+        </div>
+        <div class="col">
+          Automóveis de Mercadorias
+        </div>
+        <div class="col">
+          Motociclos
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          Reboques
+        </div>
+        <div class="col">
+          Para reparação ou peças
+        </div>
+        <div class="col">
+          Peças e acessórios
+        </div>
+      </div>
+      <h2 class="categoria text-white">Barcos</h2>
+      <div class="row">
+        <div class="col">
+          Pequenas Embarcações
+        </div>
+        <div class="col">
+          Médias Embarcações
+        </div>
+        <div class="col">
+          Grandes Embarcações
+        </div>
+        <div class="col">
+          Motas de água
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          Botes
+        </div>
+        <div class="col">
+          Kayaks
+        </div>
+        <div class="col">
+          Para reparação ou peças
+        </div>
+        <div class="col">
+          Peças e acessórios
+        </div>
+      </div>
+      <h2 class="categoria text-white">Imóveis</h2>
+      <h3 class="Subcategoria text-white">Venda</h3>
+      <div class="row">
+        <div class="col">
+          Apartamentos
+        </div>
+        <div class="col">
+          Moradias
+        </div>
+        <div class="col">
+          Prédios
+        </div>
+        <div class="col">
+          Armazéns
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          Lojas
+        </div>
+        <div class="col">
+          Garagens
+        </div>
+        <div class="col">
+          Estacionamentos
+        </div>
+        <div class="col">
+          Terrenos
+        </div>
+      </div>
+      <h3 class="Subcategoria text-white">Alugar</h3>
+      <div class="row">
+        <div class="col">
+          Apartamentos
+        </div>
+        <div class="col">
+          Moradias
+        </div>
+        <div class="col">
+          Quartos
+        </div>
+        <div class="col">
+          Armazéns
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          Lojas
+        </div>
+        <div class="col">
+          Garagens
+        </div>
+        <div class="col">
+          Estacionamentos
+        </div>
+        <div class="col">
+          Terrenos
+        </div>
+      </div>
+    </div>
+      
+
+    <div class="p-2 text-center bg-body-tertiary">
+      <div class="container py-2">
+          <h1 class="text-body-emphasis">Encontra o que procuras</h1>
+          <h1 class="text-body-subtitel">agora sem preocupações !</h1>
+          <h1 class="resumo-simples-metodo-segurança">Bem-vindo ao nosso website de classificados, onde a sua segurança é garantida! Estamos comprometidos em fornecer uma plataforma confiável e protegida para todas as suas necessidades de compra e venda. Para assegurar a integridade e a confiança em cada transação, implementamos um sistema exclusivo de segurança.</h1>
+          <a href="segurancaInfo.html" class="text-white">
+              <button type="button" class="btpadding btn btn-info">
+                  Mais informações</a> 
+              </button>
+          </a>
+      </div>
+  </div>
+
+
+
+
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">© 2023 Company, Inc</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+        </footer>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
